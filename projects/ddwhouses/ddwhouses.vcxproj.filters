@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ddicli.cpp" />
+    <ClCompile Include="helper\ddhelper_cli.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ddmain_cli.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ddicli.h" />
+    <ClInclude Include="helper\ddhelper_cli.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ddmain_cli.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="helper">
+      <UniqueIdentifier>{59430810-27aa-4d75-bdb4-79e536bf6641}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
